@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <rosparam file="$(find robot_desc)/config/diff_robot_control.yaml" command="load" />
+    
+    <node name="SARA_controller_manager" pkg="controller_manager" type="spawner"
+          respawn="false" output="screen" args="mobile_base_controller joint_state_controller" />  
+</launch>
