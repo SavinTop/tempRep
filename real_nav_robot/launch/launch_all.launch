@@ -1,0 +1,6 @@
+<launch>
+<include file="$(find real_nav_robot)/launch/world_gaz.launch" />
+<include file="$(find real_nav_robot)/launch/spawn_gaz.launch" />
+<include file="$(find real_nav_robot)/launch/move_base.launch" />
+<include file="$(find real_nav_robot)/launch/view_rviz.launch" />
+</launch>

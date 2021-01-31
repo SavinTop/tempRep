@@ -1,0 +1,6 @@
+<launch>
+<include file="$(find real_nav_robot)/launch/upload_robot.launch" />
+
+<node name="my_robot_spawn" pkg="gazebo_ros" type="spawn_model" output="screen"
+args="-urdf -param robot_description -z 0.3 -Y 1.57 -model robot"/>
+</launch>

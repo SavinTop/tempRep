@@ -1,0 +1,13 @@
+<launch>
+<node pkg="gmapping" type="slam_gmapping" respawn="false"
+name="slam_gmapping" output="screen">
+<param name="odom_frame" value="odom"/>
+<param name="base_frame" value="robot_base"/>
+<remap from="scan" to = "base_scan" />
+<param name="xmin" value="-100.0"/>
+<param name="ymin" value="-100.0"/>
+<param name="xmax" value="100.0"/>
+<param name="ymax" value="100.0"/>
+</node>
+
+</launch>

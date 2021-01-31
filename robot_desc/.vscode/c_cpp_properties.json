@@ -10,8 +10,6 @@
                 "/opt/ros/melodic/include/**",
                 "/home/savin/task_ws/src/lidar_task/include/**",
                 "/home/savin/industirial_training_ws/src/myworkcell_core/include/**",
-                "/home/savin/task_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
-                "/home/savin/task_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
                 "/home/savin/industirial_training_ws/src/universal_robot/ur_kinematics/include/**",
                 "/usr/include/**"
             ],
@@ -19,7 +17,7 @@
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
-            "cppStandard": "gnu++14"
+            "cppStandard": "gnu++11"
         }
     ],
     "version": 4

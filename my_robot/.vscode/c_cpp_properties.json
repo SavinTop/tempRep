@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/savin/industirial_training_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/savin/task_ws/src/lidar_task/include/**",
+        "/home/savin/industirial_training_ws/src/myworkcell_core/include/**",
+        "/home/savin/industirial_training_ws/src/universal_robot/ur_kinematics/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

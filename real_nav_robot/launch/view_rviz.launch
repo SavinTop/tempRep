@@ -1,0 +1,11 @@
+<launch>
+<include file="$(find real_nav_robot)/launch/upload_robot.launch" />
+
+<node name="robot_state_publisher" pkg="robot_state_publisher"
+type="robot_state_publisher" /> 
+
+<node name="joint_state_publisher" pkg="joint_state_publisher"
+type="joint_state_publisher" args="_use_gui:=True" />
+
+<node name="rviz" pkg="rviz" type="rviz" args="-d robot_description" />
+</launch>
